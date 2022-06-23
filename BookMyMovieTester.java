@@ -18,8 +18,8 @@ class BookMyMovieTester{
 	  
 	  BookMyMovie bookMyMovie1 = new BookMyMovie("Veeresh", 300, movies, 150,25, snacks);
 	  System.out.println("The name of the theater is "+ bookMyMovie1.theaterName);
-	  bookMyMovie.showTime(7, "Priya", "Jacky");
-	  bookMyMovie.buySnacks("Hot chips", 20);
+	  bookMyMovie1.showTime(7, "Priya", "Jacky");
+	  bookMyMovie1.buySnacks("Hot chips", 20);
 
    
    

@@ -11,6 +11,7 @@ class BookMyMovie{
 	 
 	      int noOfSnacks;
 	      int snacksPrice;
+		  int totalSnacksPrice;
 	 
 	
 	  public BookMyMovie(String theaterName, int totalNoOfTickets, String movies[], int noOfSnacks, int snacksPrice,  String snacks[] )
@@ -22,6 +23,7 @@ class BookMyMovie{
 		this.movies = movies;
 		this.noOfSnacks = noOfSnacks;
 		this.snacks = snacks;
+		this.snacksPrice = snacksPrice;
 
 	}
 	
