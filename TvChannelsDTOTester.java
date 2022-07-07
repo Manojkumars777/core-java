@@ -1,8 +1,8 @@
 
-class TvChannelsTester{
+class TvChannelsDTOTester{
 	
 	public static void main(String a[]){
-		TvChannels tv = new TvChannels();
+		TvChannelsDTO tv = new TvChannelsDTO();
 		           tv.setBrand("TATA-SKY");
 				   tv.setAvailableChannels("All kannada and Hindhi channels");
 				   tv.setMonthlyCharges("300");

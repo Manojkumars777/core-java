@@ -1,8 +1,8 @@
 
-public class Ipl{
+public class IplDTO{
 	
-	public Ipl(){
-		System.out.println("Ipl object is created");
+	public IplDTO(){
+		
 	}
 	
 	private String founder;
@@ -28,8 +28,8 @@ public class Ipl{
 		this.recentCamp = recentCamp;
 	}
 	
-	public void habba(){
+	/*public void habba(){
 		System.out.println("Habba shuru GURU......");
-	}
+	}*/
 
 }

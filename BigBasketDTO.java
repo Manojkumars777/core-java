@@ -1,8 +1,8 @@
 
- public class BigBasket{
+ public class BigBasketDTO{
 	 
-	public BigBasket(){
-		System.out.println("Bigbasket object is created");
+	public BigBasketDTO(){
+	
 	}
 	
   private String ownedBy;
@@ -39,8 +39,8 @@
 	 }
 	 
 	 
-  public void bigbas(){
+    /*public void bigbas(){
 	  System.out.println("Order items online");
-  }
+  }*/
 	
 }

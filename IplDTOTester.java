@@ -1,5 +1,5 @@
 
-class IplTester{
+class IplDTOTester{
 	
 	public static void main(String a[]){
 		Ipl ipl = new Ipl();
@@ -7,7 +7,7 @@ class IplTester{
 			ipl.setNumberOfTeams(10);
 			ipl.setRecentCamp("Gujarath--Titans");
 			
-			ipl.habba();
+			//ipl.habba();
 	  System.out.println(ipl.getFounder()+" / "+ipl.getNumberOfTeams()+"/ "+ipl.getRecentCamp());
 	  
 	}

@@ -1,8 +1,8 @@
 
-public class Novel
+public class NovelDTO
 {
-   public Novel(){
-	   System.out.println("Novel object is created");
+   public NovelDTO(){
+	 
    }
    
    private String novelName;
@@ -35,7 +35,7 @@ public class Novel
 	   this.awards = awards;
    }
    
-   public void kavana(){
+  /* public void kavana(){
 	   System.out.println("Kate inna mugdilla ....Ega praramba");
-   }
+   }*/
 }

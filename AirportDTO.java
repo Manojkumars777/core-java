@@ -1,8 +1,8 @@
 
-public class Airport
+public class AirportDTO
 {
-	public Airport(){
-		System.out.println("Airpotrt object is created");
+	public AirportDTO(){
+		
 	}
 	
 	 private String name;
@@ -42,8 +42,8 @@ public class Airport
 		 this.contactNo = contactNo;
 	 }
 	 
-	 public void flyInSky(){
+	/* public void flyInSky(){
 		 System.out.println("Habibi come to Dubai......");
-	 }
+	 }*/
 	
 }

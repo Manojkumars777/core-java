@@ -1,8 +1,8 @@
 
-public class TvChannels{
+public class TvChannelsDTO{
 	
-	public TvChannels(){
-		System.out.println("Tv channel object is created");
+	public TvChannelsDTO(){
+		
 	}
 	
 	private String brand;
@@ -29,8 +29,8 @@ public class TvChannels{
 	}
 	
 	
-	public void entertainment(){
+	/*public void entertainment(){
 		System.out.println("Waste of time");
-	}
+	}*/
 
 }

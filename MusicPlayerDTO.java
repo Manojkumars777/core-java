@@ -1,9 +1,9 @@
 
 
-public class MusicPlayer{
+public class MusicPlayerDTO{
 	
-	public MusicPlayer(){
-		System.out.println("Music player object is created");
+	public MusicPlayerDTO(){
+		
 	}
 	
 	private String brand;
@@ -29,7 +29,7 @@ public class MusicPlayer{
 		this.speakerType = speakerType;
 	}
 	
-	public void chillMadi(){
+	/*public void chillMadi(){
 		System.out.println("Inna ean yochne madtiya Guru...Play madu...*");
-	}
+	}*/
 }

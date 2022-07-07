@@ -1,9 +1,9 @@
 
-public class Stadium
+public class StadiumDTO
 {
-	public Stadium()
+	public StadiumDTO()
 	{
-		System.out.println("Stadium object is created");
+		
 	}
 	
 	private String name;
@@ -37,8 +37,8 @@ public class Stadium
 	}
 	
 	
-	public void crazyHawa(){
+	/*public void crazyHawa(){
 		System.out.println("Banni friends match nodona.....");
-	}
+	}*/
 	
 }

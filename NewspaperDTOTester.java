@@ -1,13 +1,13 @@
 
-class NewspaperTester{
+class NewspaperDTOTester{
 	
 	public static void main(String a[]){
-		Newspaper news = new Newspaper();
+		NewspaperDTO news = new NewspaperDTO();
 		          news.setFounderName("Herman Ferderice");
 				  news.setFoundedIn("may 1843");
 				  news.setFirstNewspaper("Mangalooru Samachara");
 				  
-				  news.NEWS();
+				  //news.NEWS();
 				  
 	  System.out.println(news.getFounderName()+" / "+news.getFoundedIn()+" / "+news.getFirstNewspaper());
 	}

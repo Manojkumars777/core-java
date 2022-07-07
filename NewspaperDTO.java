@@ -1,8 +1,8 @@
 
-public class Newspaper{
+public class NewspaperDTO{
 	
-	public Newspaper(){
-		System.out.println("Newspaper object is created");
+	public NewspaperDTO(){
+		
 	}
 	
 	private String founderName;
@@ -29,20 +29,9 @@ public class Newspaper{
 	}
 	
 	
-	public void NEWS(){
+	/*public void NEWS(){
 		System.out.println("NORTH----EAST-----WEST-----SOUTH updates");
-	}
+	}*/
  
-
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -1,7 +1,7 @@
 
-public class Games{
+public class GamesDTO{
 	
-	public Games(){
+	public GamesDTO(){
 		System.out.println("Games object is created");
 	}
 	
@@ -28,8 +28,8 @@ public class Games{
 		this.size = size;
 	}
 	
-	public void relaxin(){
+	/*public void relaxin(){
 		System.out.println("CAUSTION... Too much addiction iz Dangareous to ...");
-	}
+	}*/
 	
 }

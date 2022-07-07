@@ -1,8 +1,8 @@
 
-public class Weapons{
+public class WeaponsDTO{
 	
-	public Weapons(){
-		System.out.println("Weapons object is created");
+	public WeaponsDTO(){
+	
 	}
 	
 	private String name;
@@ -29,9 +29,9 @@ public class Weapons{
 	}
 
 	
-	public void safety(){
+	/*public void safety(){
 		System.out.println("Be like a GUN ...");
-	}
+	}*/
 
 
 

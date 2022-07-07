@@ -1,9 +1,9 @@
 
-public class Container
+public class ContainerDTO
 {
-	public Container()
+	public ContainerDTO()
 	{
-		System.out.println("Container object is created");
+		
 	}
 	
 	private String name;
@@ -47,21 +47,8 @@ public class Container
 		this.capacity = capacity;
 	}
 	
-	void storage(){
+	/*void storage(){
 		System.out.println("Main purpose iz to store items");
-	}
+	}*/
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

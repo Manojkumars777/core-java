@@ -1,9 +1,10 @@
 
- public class Orthopedics{
+ public class OrthopedicsDTO{
  
-	public Orthopedics(){
-	  System.out.println("Orthopedics object is created");
+	public OrthopedicsDTO(){
+
 	}
+	
   private String name;
   private String educationReq;
   private String employmentField;  
@@ -38,8 +39,8 @@
 	 }
 	 
 	 
-  public void lifeLine(){
+  /*public void lifeLine(){
 	  System.out.println("Condition involving musculoskeletal structure ");
-  }
+  }*/
 	
 }
