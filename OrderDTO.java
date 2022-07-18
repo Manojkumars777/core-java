@@ -1,38 +1,45 @@
+public class OrderDTO {
 
-public class OrderDTO{
+     private int id;
+	 private String name;
+	 private int quantity;
+	 private String type;
+	 
+	 public OrderDTO(){
+	   
+	 }
+	 
+	 public int getId(){
+	    return id;
+	 }
+	 public void setId(int id){
+	    this.id = id;
+	 }
+	 
+	 public String getName(){
+	    return name;
+	 }
+	 public void setName(String name){
+	    this.name = name;
+	 }
+	 public int getQuantity(){
+	    return quantity;
+	 }
+	 public void setQuantity(int quantity){
+	    this.quantity = quantity;
+	 }
+	 public String getType(){
+	    return type;
+	 } 
+	 public void setType(String type){
+	    this.type = type;
+	 }
+	 
+	 @Override
+	 public String toString(){
+		 return "[OrderDTO : Id ="+this.getId()+", Name= "+ this.getName()+", Quantity = "+ this.getQuantity()+", Type ="+this.getType()+"]";
+	 }
 	
-	public OrderDTO(){
-		System.out.println("OrderDTO object is created");
-	}
-	
-	    private int orderNum;
-		private String name;
-		private String itemDetails;
-		private long conNum;
-		
-		public int getOrderNum(){
-			return orderNum;
-		}
-		public void setOrderNum(int orderNum){
-			this.orderNum = orderNum;
-		}
-		public String getName(){
-			return name;
-		}
-		public void setName(String name){
-			this.name = name;
-		}
-		public String getItemDetails(){
-			return itemDetails;
-		}
-		public void setItemDetails(String itemDetails){
-			this.itemDetails = itemDetails;
-		}
-		public long getConNum(){
-			return conNum;
-		}
-		public void setConNum(long conNum){
-			this.conNum = conNum;
-		}
-	
+
+
 }

@@ -1,45 +1,55 @@
+public class TerminalDTO {
 
-public class TerminalDTO{
+     private int id;
+	 private String name;
+	 private int noOfLoadingBridges;
+	 private int noOfDepartureGates;
+	 private int noOfCheckIncounters;
+	 
+	 public TerminalDTO(){
+	   
+	 }
+	 
+	 public int getId(){
+	    return id;
+	 }
+	 public void setId(int id){
+	    this.id = id;
+	 }
+	 
+	 public String getName(){
+	    return name;
+	 }
+	 public void setName(String name){
+	    this.name = name;
+	 }
+	 public int getNoOfLoadingBridges(){
+	    return noOfLoadingBridges;
+	 }
+	 public void setNoOfLoadingBridges(int noOfLoadingBridges){
+	    this.noOfLoadingBridges = noOfLoadingBridges;
+	 }
+	 public int getNoOfDepartureGates(){
+	    return noOfDepartureGates;
+	 } 
+	 public void setNoOfDepartureGates(int noOfDepartureGates){
+	    this.noOfDepartureGates = noOfDepartureGates;
+	 }
+	 
+	 public int getNoOfCheckinCounters(){
+	    return noOfCheckIncounters;
+	 } 
+	 public void setNoOfCheckinCounters(int noOfCheckIncounters){
+	    this.noOfCheckIncounters = noOfCheckIncounters;
+	 }
+	 
+	 @Override
+	 public String toString(){
+		 return "[TerminalDTO : Id="+this.getId()+", Name="+this.getName()+", NoOfLoadingbridges= "+this.getNoOfLoadingBridges()+", NoOfDeparturegates= "+this.getNoOfDepartureGates()+", NoOfCheckinCounters="+this.getNoOfCheckinCounters()+"]";
+	 }
+	 
+	 
 	
-	public TerminalDTO(){
-		System.out.println("TerminalDTO object is created");
-	}
-	
-	private int id;
-	private String type;
-	private String airportName;
-	private String location;
-	private int numOfEntry;
-	
-	public int getId(){
-		return id;
-	}
-	public void setId(int id){
-		this.id = id;
-	}
-	public String getType(){
-		return type;
-	}
-	public void setType(String type){
-		this.type = type;
-	}
-	public String getAirportName(){
-		return airportName;
-	}
-	public void setAirportName(String airportName){
-	    this.airportName = airportName;
-	}
-	public String getLocation(){
-		return location;
-	}
-	public void setLocation(String location){
-		this.location = location;
-	}
-	public int getNumOfEntry(){
-		return numOfEntry;
-	}
-	public void setNumOfEntry(int numOfEntry){
-		this.numOfEntry = numOfEntry;
-	}
-	
+
+
 }
